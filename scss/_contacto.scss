@@ -1,0 +1,28 @@
+/* Contacto */
+
+.contact {
+  background: linear-gradient(rgba(5, 7, 12, 0), rgba(5, 7, 12, 0.3)), url(../imagen/cereales.webp);
+  background-size: 100%;
+  opacity: 0.9;
+  padding: auto;
+  margin: $margin;
+}
+
+.consultorio {
+  font-size: $font-size;
+  text-align: $text-align;
+  color:  $color-azuloscuro;
+}
+
+
+.maps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+iframe {
+  border-radius: 10px;
+}
+

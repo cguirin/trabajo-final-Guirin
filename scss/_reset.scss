@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: $background, url(../imagen/fondo.webp);
+  background-size: $background-size;
+  font-size: 20px;
+}
+
+.logo {
+  width: 100px;
+  cursor: $cursor;
+}

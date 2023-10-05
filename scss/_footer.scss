@@ -1,0 +1,72 @@
+/* FOOTER */
+
+@mixin footer {
+  color:white;
+  background-color: rgba(46, 41, 78, 0.211);
+  backdrop-filter:blur (10px);
+  border-top: 1px solid rgba(255,255,255,0.109);
+  background-size: $background-size;
+  border-radius: 30px;
+}
+
+  
+
+footer {
+  @include footer;
+}
+
+
+.face {
+  color: blue;
+  font-size: 20px;
+  padding: 50px;
+}
+
+.whatssap {
+  color: rgb(60, 235, 60);
+  font-size: 20px;
+}
+
+.volver {
+  font-size: 15px;
+}
+
+.derechos {
+  font-size: 10px;
+}
+
+.padreLogo{
+  position:relative;
+  object-fit: contain;
+}
+
+.logowhat {
+  width: 150px;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  cursor: $cursor;
+  
+}
+
+@keyframes botonSuscribite {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 50;
+  }
+
+  100% {
+    opacity: 100;
+  }
+}
+
+.botonSuscribite {
+  background-color: #ff1414;
+  animation-name: botonSuscribite;
+  animation-duration: 1.5s;
+  animation-iteration-count: $animation-iteration-count;
+
+}

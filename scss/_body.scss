@@ -1,0 +1,49 @@
+/* BODY */
+
+h1 {
+  background: linear-gradient(to right, orange, #3b2503);
+  font-size: $font-size;
+  color: $color-blanco;
+  margin-bottom: 3%;
+  margin-top: 0%;
+  text-align: $text-align;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nombrePrincipal {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  transition: all 3ms ease-in-out;
+  transform: rotateX(20deg);
+
+  &:hover {
+    filter: contrast(250%);
+  }
+}
+
+h2 {
+  text-align: $text-align;
+  font-size: 40px;
+  color: $color-azuloscuro;
+  margin-bottom: 50px;
+}
+
+@keyframes texto {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 50%;
+  }
+
+  100% {
+    opacity: 100%;
+  }
+}
+
+.ayuda {
+  animation-name: texto;
+  animation-duration: $animation-duration;
+  animation-iteration-count: $animation-iteration-count;
+}

@@ -1,0 +1,102 @@
+@mixin header {
+    color:white;
+    background-color: rgba(46, 41, 78, 0.211);
+    backdrop-filter:blur (10px);
+    border-top: 1px solid rgba(255,255,255,0.109);
+    background-size: $background-size;
+    border-radius: 30px;
+}
+
+header {
+    @include header;
+}
+
+
+
+li {
+    list-style: none;
+    display: inline-block;
+    padding: 0px 30px;
+}
+
+a {
+    font-size: $font-size;
+    font-weight: 500px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navegadores {
+    color: $color-blanco;
+    transition: all 0.5s;
+}
+
+.miLink:hover {
+    background-color: rgb(243, 219, 183);
+    color: $color-blanco;
+    font-weight: 5px;
+    height: 50px;
+}
+
+.tipos {
+    background: $background, url(../imagen/manzana.jpg);
+    background-size: 10%;
+    opacity: 0.9;
+    padding: auto;
+}
+
+.plans {
+    font-size: $font-size;
+    color:$color-celeste;
+}
+
+.contenedor {
+    background: linear-gradient(rgba(5, 7, 12, 0.1), rgba(5, 7, 12, 0.99)), url(../imagen/frutasvariedad.jpg);
+    background-size: $background-size;
+}
+
+.faq {
+    font-size: $font-size;
+    color: $color-azuloscuro;
+}
+
+.pPreguntas {
+    color: $color-blanco;
+}
+
+.sobreMi {
+    font-size: $font-size;
+    color:$color-azuloscuro;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.carla {
+    width: 270px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+}
+
+.galeria {
+    height: 400px;
+    width: 600px;
+    object-fit: cover;
+    filter:brightness(50%);
+
+}
+
+.galeria:hover {
+    filter: brightness(100%);
+
+}
+
+
+
+
+@media (max-width: 767px) {
+    #carouselExample {
+      display: none;
+    }
+  }

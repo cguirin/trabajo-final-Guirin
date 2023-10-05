@@ -1,0 +1,33 @@
+/* Conoce a Carla */
+
+.yo {
+  font-size: 20px;
+  border-style: solid;
+  border-color: rgb(150, 213, 241);
+  padding: 10px;
+  margin: $margin;
+  color: $color-blanco;
+  border-radius: 10px;
+} 
+
+.midiendo{
+  width: 270px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.conoceme {
+  background: linear-gradient(rgba(5, 7, 12, 0.7), rgba(5, 7, 12, 0.7)), url(../imagen/verduras.webp);
+  background-size: $background-size;
+  opacity: 0.9;
+  padding: auto;
+  margin: $margin ;
+  border-radius:10px;
+}
+
+.sobreMii{
+  color:$color-celeste;
+}

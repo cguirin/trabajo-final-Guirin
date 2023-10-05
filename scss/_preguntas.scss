@@ -1,0 +1,46 @@
+/* Preg. Frecuentes*/
+
+
+.cuadro3 {
+  text-align: $text-align;
+ 
+}
+
+.enviar,
+.borrar {
+  background-image: $background-image;
+  padding: 10px 10px;
+  border-radius: 6px;
+  border: none;
+  color: $color-blanco ;
+  cursor: $cursor;
+
+  &:active {
+    transform: translateY(5px);
+  }
+}
+
+.pregfr {
+  background: linear-gradient(rgba(5, 7, 12, 0.05), rgba(5, 7, 12, 0.1)), url(../imagen/fondoagua.jpg);
+  background-size: 100%;
+  opacity: 0.9;
+  padding: auto;
+  margin: $margin ;
+  border-radius:10px;
+}
+
+@keyframes pFrec {
+  0% {
+    transform: rotate(0%);
+  }
+
+  100% {
+    transform: rotate(100%);
+  }
+}
+
+.pFrec {
+  animation-name: pFrec;
+  animation-duration: $animation-duration;
+  animation-iteration-count: $animation-iteration-count;
+}

@@ -1,0 +1,345 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(rgba(5, 7, 12, 0.3), rgba(5, 7, 12, 0.3)), url(../imagen/fondo.webp);
+  background-size: cover;
+  font-size: 20px;
+}
+
+.logo {
+  width: 100px;
+  cursor: pointer;
+}
+
+header {
+  color: white;
+  background-color: rgba(46, 41, 78, 0.211);
+  backdrop-filter: blur 10px;
+  border-top: 1px solid rgba(255, 255, 255, 0.109);
+  background-size: cover;
+  border-radius: 30px;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  padding: 0px 30px;
+}
+
+a {
+  font-size: 50px;
+  font-weight: 500px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.navegadores {
+  color: aliceblue;
+  transition: all 0.5s;
+}
+
+.miLink:hover {
+  background-color: rgb(243, 219, 183);
+  color: aliceblue;
+  font-weight: 5px;
+  height: 50px;
+}
+
+.tipos {
+  background: linear-gradient(rgba(5, 7, 12, 0.3), rgba(5, 7, 12, 0.3)), url(../imagen/manzana.jpg);
+  background-size: 10%;
+  opacity: 0.9;
+  padding: auto;
+}
+
+.plans {
+  font-size: 50px;
+  color: rgb(187, 229, 243);
+}
+
+.contenedor {
+  background: linear-gradient(rgba(5, 7, 12, 0.1), rgba(5, 7, 12, 0.99)), url(../imagen/frutasvariedad.jpg);
+  background-size: cover;
+}
+
+.faq {
+  font-size: 50px;
+  color: rgb(5, 37, 48);
+}
+
+.pPreguntas {
+  color: aliceblue;
+}
+
+.sobreMi {
+  font-size: 50px;
+  color: rgb(5, 37, 48);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.carla {
+  width: 270px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+}
+
+.galeria {
+  height: 400px;
+  width: 600px;
+  object-fit: cover;
+  filter: brightness(50%);
+}
+
+.galeria:hover {
+  filter: brightness(100%);
+}
+
+@media (max-width: 767px) {
+  #carouselExample {
+    display: none;
+  }
+}
+/* FOOTER */
+footer {
+  color: white;
+  background-color: rgba(46, 41, 78, 0.211);
+  backdrop-filter: blur 10px;
+  border-top: 1px solid rgba(255, 255, 255, 0.109);
+  background-size: cover;
+  border-radius: 30px;
+}
+
+.face {
+  color: blue;
+  font-size: 20px;
+  padding: 50px;
+}
+
+.whatssap {
+  color: rgb(60, 235, 60);
+  font-size: 20px;
+}
+
+.volver {
+  font-size: 15px;
+}
+
+.derechos {
+  font-size: 10px;
+}
+
+.padreLogo {
+  position: relative;
+  object-fit: contain;
+}
+
+.logowhat {
+  width: 150px;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  cursor: pointer;
+}
+
+@keyframes botonSuscribite {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 50;
+  }
+  100% {
+    opacity: 100;
+  }
+}
+.botonSuscribite {
+  background-color: #ff1414;
+  animation-name: botonSuscribite;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+
+/* Tratamiento */
+.trat {
+  background: linear-gradient(rgba(5, 7, 12, 0.6), rgba(5, 7, 12, 0.65)), url(../imagen/frutilla.jpg);
+  background-size: 100%;
+  opacity: 0.7;
+  padding: 150px;
+  border-radius: 10px;
+}
+
+.tratamiento {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(187, 229, 243);
+}
+
+.planes {
+  font-size: 25px;
+}
+
+.subt {
+  background: linear-gradient(rgba(5, 7, 12, 0.3), rgba(5, 7, 12, 0.3)), url(../imagen/citricos.jpg);
+  background-size: 10%;
+  opacity: 0.8;
+  padding: auto;
+  border-radius: 10px;
+}
+
+.planss {
+  font-size: 50px;
+  color: rgb(187, 229, 243);
+}
+
+/* Contacto */
+.contact {
+  background: linear-gradient(rgba(5, 7, 12, 0), rgba(5, 7, 12, 0.3)), url(../imagen/cereales.webp);
+  background-size: 100%;
+  opacity: 0.9;
+  padding: auto;
+  margin: auto;
+}
+
+.consultorio {
+  font-size: 50px;
+  text-align: center;
+  color: rgb(5, 37, 48);
+}
+
+.maps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+iframe {
+  border-radius: 10px;
+}
+
+/* Preg. Frecuentes*/
+.cuadro3 {
+  text-align: center;
+}
+
+.enviar,
+.borrar {
+  background-image: linear-gradient(to left, #e96443, #904e95);
+  padding: 10px 10px;
+  border-radius: 6px;
+  border: none;
+  color: aliceblue;
+  cursor: pointer;
+}
+.enviar:active,
+.borrar:active {
+  transform: translateY(5px);
+}
+
+.pregfr {
+  background: linear-gradient(rgba(5, 7, 12, 0.05), rgba(5, 7, 12, 0.1)), url(../imagen/fondoagua.jpg);
+  background-size: 100%;
+  opacity: 0.9;
+  padding: auto;
+  margin: auto;
+  border-radius: 10px;
+}
+
+@keyframes pFrec {
+  0% {
+    transform: rotate(0%);
+  }
+  100% {
+    transform: rotate(100%);
+  }
+}
+.pFrec {
+  animation-name: pFrec;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+/* Conoce a Carla */
+.yo {
+  font-size: 20px;
+  border-style: solid;
+  border-color: rgb(150, 213, 241);
+  padding: 10px;
+  margin: auto;
+  color: aliceblue;
+  border-radius: 10px;
+}
+
+.midiendo {
+  width: 270px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.conoceme {
+  background: linear-gradient(rgba(5, 7, 12, 0.7), rgba(5, 7, 12, 0.7)), url(../imagen/verduras.webp);
+  background-size: cover;
+  opacity: 0.9;
+  padding: auto;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.sobreMii {
+  color: rgb(187, 229, 243);
+}
+
+/* BODY */
+h1 {
+  background: linear-gradient(to right, orange, #3b2503);
+  font-size: 50px;
+  color: aliceblue;
+  margin-bottom: 3%;
+  margin-top: 0%;
+  text-align: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nombrePrincipal {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  transition: all 3ms ease-in-out;
+  transform: rotateX(20deg);
+}
+.nombrePrincipal:hover {
+  filter: contrast(250%);
+}
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+  color: rgb(5, 37, 48);
+  margin-bottom: 50px;
+}
+
+@keyframes texto {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 50%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+.ayuda {
+  animation-name: texto;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+/*# sourceMappingURL=estilo.css.map */
